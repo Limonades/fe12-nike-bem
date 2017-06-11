@@ -1,0 +1,133 @@
+/*global*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FA8258;
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/4-layers.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+/*slider>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.slider {
+	background-color: #0d1e32;
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slider__header-logo {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.slider__photo {
+	float: left;
+}
+
+.slider__photo-link {
+	display: block;
+	padding-left: 35px;
+	padding-top: 55px;
+}
+
+.slider__info {
+	float: right;
+	margin-right: 30px;
+}
+
+.slider__info-title {
+	width: 160px;
+	height: 45px;
+	color: #e1e1e1;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+.slider__info-text {
+	height: 14px;
+	opacity: 0.54;
+	color: #e1e1e1;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 26px;
+	padding-bottom: 40px;
+}
+
+.fa-star {
+	color: #fbca12;
+	font-size: 14px;
+	padding-bottom: 30px;
+}
+
+.fa-star-white {
+	color: #9ba2aa;
+}
+
+.slider__info-size {
+	display: inline-block;
+	color: #e1e1e1;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 18px;
+	border: 1px solid #4c5867;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 30px;
+}
+
+.slider__info-qty {
+	display: inline-block;
+	color: #e1e1e1;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 18px;
+	border: 1px solid #4c5867;
+	padding: 10px 20px 10px 20px;
+}
+
+.slider__info-add {
+	/*display: inline-block;*/
+	text-decoration: none;
+	color: #e1e1e1;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 18px;
+	border: 1px solid #4c5867;
+	padding: 10px 55px 10px 55px;
+	background-color: #223041;
+}
+
+.slider__info-add:hover {
+	background-color: #4c525a;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.slider__buttons {
+	margin-top: 50px;
+    margin-left: 180px;
+}
+
+.slider__buttons-pic {
+	padding-right: 5px;
+
+}
