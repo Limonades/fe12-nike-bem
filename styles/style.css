@@ -78,6 +78,11 @@ main {
 	color: #fbca12;
 	font-size: 14px;
 	padding-bottom: 30px;
+	text-decoration: none;
+}
+
+.slider__info--item {
+	display: inline-block;
 }
 
 .fa-star-white {
@@ -104,7 +109,7 @@ main {
 }
 
 .slider__info-add {
-	/*display: inline-block;*/
+	display: inline-block;
 	text-decoration: none;
 	color: #e1e1e1;
 	font-family: 'Bubbler One', sans-serif;
@@ -123,11 +128,29 @@ main {
 }
 
 .slider__buttons {
-	margin-top: 50px;
+	margin-top: 40px;
     margin-left: 180px;
 }
 
-.slider__buttons-pic {
+.slider__buttons--item {
+	display: inline-block;
+	list-style: none;
+}
+
+.slider__buttons--pic {
 	padding-right: 5px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
