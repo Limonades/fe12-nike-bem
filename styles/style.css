@@ -32,6 +32,12 @@ main {
     bottom: 0;
 }
 
+.content:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
 .slider__header-logo {
 	margin-left: 25px;
 	margin-top: 25px;
@@ -123,31 +129,60 @@ main {
 	background-color: #4c525a;
 }
 
-.clearfix {
-    clear: both;
-}
-
 .slider__buttons {
 	margin-top: 40px;
     margin-left: 180px;
 }
 
 .slider__buttons--item {
-	display: inline-block;
+	float: left;
 	list-style: none;
+}
+
+.slider__buttons:after {
+	content: '';
+	display: table;
+	clear: both;
 }
 
 .slider__buttons--pic {
 	padding-right: 5px;
 
 }
+/*select*/
 
+.slider__select {
+	color: #7b838d;
+	border-radius: 0;
+    background: transparent;
+    -webkit-appearance: none;
+    width: 80px;
+    padding: 10px 0px 10px 20px;
+    color: #7b838d;
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 20px;
+}
 
+.slider__select:hover {
+	cursor: pointer;
+}
 
+.slider__form-cursor {
+	float: left;
+	background: url(../img/rectangle-2.png) no-repeat right;
+	margin-right: 15px;
+	width: 70px;
+}
 
+.slider__form:after {
+	content: '';
+	display: table;
+	clear: both;
+}
 
-
-
+.slider__form {
+	margin-bottom: 30px;
+}
 
 
 
